@@ -1,0 +1,252 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="AK INNOVIX provides modern website development, software solutions and digital services for businesses.">
+    <link rel="icon" type="image/x-icon" href="assets/logo.png">
+
+    <title>AK Innovix</title>
+   
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <a href="#home" class="brand">
+            <img src="assets/logo.png" alt="AK INNOVIX Logo">
+            <span>AK <strong>INNOVIX</strong></span>
+        </a>
+
+        <button class="menu-toggle" id="menuToggle"
+                aria-label="Toggle navigation"
+                aria-expanded="false">
+            ☰
+        </button>
+
+        <nav class="navbar" id="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact" class="nav-contact">Contact Us</a>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <main>
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <span class="tagline">WELCOME TO AK INNOVIX</span>
+
+            <h1>
+                Building Digital
+                <span>Solutions</span>
+                For Your Business
+            </h1>
+
+            <p>
+                We create modern websites and digital solutions
+                that help businesses grow and succeed online.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#services" class="btn primary-btn">
+                    Explore Services
+                </a>
+
+                <a href="#contact" class="btn secondary-btn">
+                    Get In Touch
+                </a>
+            </div>
+        </div>
+
+        <div class="hero-logo">
+            <img src="assets/logo.png" alt="AK INNOVIX brand logo">
+            <h2>AK INNOVIX</h2>
+            <p>Technology • Innovation • Solutions</p>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="section about" id="about">
+        <div class="section-heading">
+            <span>WHO WE ARE</span>
+            <h2>About AK INNOVIX</h2>
+        </div>
+
+        <p class="about-description">
+            AK INNOVIX is an emerging IT services brand focused
+            on building modern, user-friendly and affordable
+            digital solutions for individuals and businesses.
+            Our goal is to turn ideas into practical technology.
+        </p>
+
+        <div class="about-highlight">
+            <div>
+                <h3>Our Mission</h3>
+                <p>Deliver useful and reliable digital solutions.</p>
+            </div>
+
+            <div>
+                <h3>Our Vision</h3>
+                <p>Build technology that helps businesses grow.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES SECTION -->
+    <section class="section services" id="services">
+        <div class="section-heading">
+            <span>WHAT WE DO</span>
+            <h2>Our Services</h2>
+            <p>Digital services designed for your business.</p>
+        </div>
+
+        <div class="service-grid">
+
+            <article class="service-card">
+                <div class="service-icon">🌐</div>
+                <h3>Website Development</h3>
+                <p>Responsive and professional websites for businesses.</p>
+            </article>
+
+            <article class="service-card">
+                <div class="service-icon">💻</div>
+                <h3>Web Design</h3>
+                <p>Modern user interfaces and attractive web layouts.</p>
+            </article>
+
+            <article class="service-card">
+                <div class="service-icon">⚙️</div>
+                <h3>Software Solutions</h3>
+                <p>Practical software solutions for business needs.</p>
+            </article>
+
+            <article class="service-card">
+                <div class="service-icon">📱</div>
+                <h3>Portfolio Websites</h3>
+                <p>Personal and professional portfolio websites.</p>
+            </article>
+
+            <article class="service-card">
+                <div class="service-icon">🚀</div>
+                <h3>Landing Pages</h3>
+                <p>Focused landing pages for products and services.</p>
+            </article>
+
+            <article class="service-card">
+                <div class="service-icon">🔧</div>
+                <h3>Website Maintenance</h3>
+                <p>Website updates, improvements and technical support.</p>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section class="section projects" id="projects">
+        <div class="section-heading">
+            <span>OUR WORK</span>
+            <h2>Our Projects</h2>
+            <p>Explore our development work.</p>
+        </div>
+
+        <div class="project-grid">
+            <article class="project-card">
+                <div class="project-number">01</div>
+                <h3>Business Website</h3>
+                <p>A modern website concept for business promotion.</p>
+                <span class="project-status">Demo Project</span>
+            </article>
+
+            <article class="project-card">
+                <div class="project-number">02</div>
+                <h3>Portfolio Website</h3>
+                <p>A professional portfolio website concept.</p>
+                <span class="project-status">Demo Project</span>
+            </article>
+
+            <article class="project-card">
+                <div class="project-number">03</div>
+                <h3>Landing Page</h3>
+                <p>A responsive landing page design concept.</p>
+                <span class="project-status">Demo Project</span>
+            </article>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="section contact" id="contact">
+        <div class="section-heading">
+            <span>LET'S CONNECT</span>
+            <h2>Start Your Project</h2>
+            <p>Have an idea? Let's discuss your requirements.</p>
+        </div>
+
+        <form id="contactForm" class="contact-form">
+            <input type="text" id="name"
+                   placeholder="Your Name" required>
+
+            <input type="email" id="email"
+                   placeholder="Your Email" required>
+
+            <input type="text" id="subject"
+                   placeholder="Project Subject" required>
+
+            <textarea id="message"
+                      placeholder="Tell us about your project"
+                      rows="5" required></textarea>
+
+            <button type="submit" class="btn primary-btn">
+                Send Enquiry via WhatsApp
+            </button>
+        </form>
+
+        <p class="contact-info">
+            WhatsApp: +91 99404 444012
+        </p>
+    </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-brand">
+            <img src="assets/logo.png" alt="AK INNOVIX">
+            <h3>AK INNOVIX</h3>
+        </div>
+
+        <p>Building Digital Solutions for Tomorrow.</p>
+
+        <div class="social-links">
+            <a href="https://instagram.com/akinfotech"
+               target="_blank" rel="noopener noreferrer">Instagram</a>
+            <a href="https://linkedin.com/"
+               target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="https://youtube.com/"
+               target="_blank" rel="noopener noreferrer">YouTube</a>
+        </div>
+
+        <p class="copyright">
+            &copy; <span id="year"></span> AK INNOVIX.
+            All Rights Reserved.
+        </p>
+    </footer>
+
+    <!-- FLOATING WHATSAPP -->
+    <a class="whatsapp-button"
+       href="https://wa.me/919940444012"
+       target="_blank"
+       rel="noopener noreferrer"
+       aria-label="Chat with AK INNOVIX on WhatsApp">
+        WhatsApp
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
